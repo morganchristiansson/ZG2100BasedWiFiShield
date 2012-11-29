@@ -56,18 +56,18 @@ extern "C" {
 #define LF 10
 
 // Strings stored in program memory (defined in strings.c)
-extern const prog_char httpOK[];
-extern const prog_char httpNotFound[];
-extern const prog_char http10[];
-extern const prog_char post[];
-extern const prog_char get[];
-extern const prog_char authBasic[];
-extern const prog_char host[];
-extern const prog_char userAgent[];
-extern const prog_char contentTypeForm[];
-extern const prog_char contentLength[];
-extern const prog_char status[];
-extern const prog_char base64Chars[];
+extern const char PROGMEM httpOK[];
+extern const char PROGMEM httpNotFound[];
+extern const char PROGMEM http10[];
+extern const char PROGMEM post[];
+extern const char PROGMEM get[];
+extern const char PROGMEM authBasic[];
+extern const char PROGMEM host[];
+extern const char PROGMEM userAgent[];
+extern const char PROGMEM contentTypeForm[];
+extern const char PROGMEM contentLength[];
+extern const char PROGMEM status[];
+extern const char PROGMEM base64Chars[];
 
 
 
